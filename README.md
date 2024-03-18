@@ -1,4 +1,4 @@
-# Java
+# JavaScript
 <h2>Structure:</h2>
 <h2>File (java-DAY#) 📂</h2>
 <h3>Assignments:</h3><p> Practices the concepts learned that day. </p>
