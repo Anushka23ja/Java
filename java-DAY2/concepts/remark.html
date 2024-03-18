@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--nested if -->
+    <script lang='javascript'>
+        //defining variables 
+        var name= prompt("Enter Name: ");
+        var rno= prompt("Enter Roll Number: ");
+        var m1= parseInt(prompt("Enter Marks #1: "));
+        var m2= parseInt(prompt("Enter Marks #2: "));
+        var m3= parseInt(prompt("Enter Marks #3: "));
+
+        //calculations  
+        var total = m1+m2+m3;
+        var average = total/3;
+
+        //display stats 
+        document.write("<br> Name: " + name);
+        document.write("<br>Roll Number: " + rno);
+        document.write("<br>Marks #1: " + m1);
+        document.write("<br>Marks #2: " + m2);
+        document.write("<br>Marks #3: " + m3);
+        document.write("<br>TOTAL: " + total);
+        document.write("<br>AVERAGE: " + average.toFixed(2)); //rounds decimal places 
+
+        //if-else statments 
+        if(average <50){
+            document.write("<br>FINAL REMARK: FAIL");
+        }
+        else if(average>=50 && average<60){
+            document.write("<br>FINAL REMARK: PASS!");
+        }
+        else if(average>=50 && average<60){
+            document.write("<br>FINAL REMARK: FIRST CLASS :) ");
+        }
+        else{
+            document.write("<br>FINAL REMARK: DISTINCTION");
+        }
+    </script>
+</body>
+</html>
