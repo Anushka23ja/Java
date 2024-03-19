@@ -6,4 +6,4 @@
 <h2>Refreshing + learning new Java concepts</h2>
 <p>Day1: Alert, Prompt, Comments, Font/Size/Color, document.write, parseInt </p
 <p>Day2: If/else if/else statements </p>
-<p>Day3:  </p>
+<p>Day3: Case Statements,For loops, Do/while loops, While loops </p>
