@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        function calarea(x, y){
+            var area = x * y;
+            document.write("Area of rectangle: " + area + "<br>");
+            document.write("Area of rectangle (rounded to 2 decimal places): " + area.toFixed(2));
+        }
+    </script>
+</head>
+<body>
+    <script lang="javascript">
+       var l, b;
+       l = parseFloat(prompt("Enter Length: ")); 
+       b = parseFloat(prompt("Enter Width: "));
+       calarea(l, b);
+    </script>
+</body>
+</html>
