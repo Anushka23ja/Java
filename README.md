@@ -7,3 +7,4 @@
 <p>Day1: Alert, Prompt, Comments, Font/Size/Color, document.write, parseInt </p
 <p>Day2: If/else if/else statements </p>
 <p>Day3: Case Statements,For loops, Do/while loops, While loops </p>
+<p>Day4: Functions and Parameters </p>
