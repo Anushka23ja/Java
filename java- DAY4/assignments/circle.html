@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        function calarea(r){
+            var area = (3.14 * (r * r));
+            document.write("Area of Circle: " + area + "<br>");
+            document.write("Area of Circle (rounded to 2 decimal places): " + area.toFixed(2));
+        }
+    </script>
+</head>
+<body>
+    <script lang="javascript">
+       var r = parseFloat(prompt("Enter Radius: "));
+       calarea(r);
+    </script>
+</body>
+</html>
