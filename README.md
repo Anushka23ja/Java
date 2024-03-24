@@ -8,3 +8,4 @@
 <p>Day2: If/else if/else statements </p>
 <p>Day3: Case Statements,For loops, Do/while loops, While loops </p>
 <p>Day4: Functions and Parameters </p>
+<p>Day5: Array, ConCat, Length, Square, Max, Min </p>
