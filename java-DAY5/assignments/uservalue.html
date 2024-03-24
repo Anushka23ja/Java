@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang = "javascript">
+        var arr = new Array(4);
+        var total = 0;
+        var squares = [];
+
+        for (var i = 0; i <= 3; i++) {
+            arr[i] = parseInt(prompt("Enter No: "));
+            total += arr[i];
+            squares.push(arr[i] * arr[i]);
+        }
+
+        document.write("Total: " + total + "<br>");
+        document.write("Max Num: " + Math.max(...arr) + "<br>");
+        document.write("Min Num: " + Math.min(...arr) + "<br>");
+        document.write("Squares: " + squares.join(", ") + "<br>");
+        document.write("Array concatenated with total: " + arr.concat(total) + "<br>");
+    </script>
+</body>
+</html>
