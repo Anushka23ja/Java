@@ -11,3 +11,4 @@
 <p>Day5: Array, ConCat, Length, Square, Max, Min </p>
 <p>Day6: Pop, Push, Reverse, Sort </p>
 <p>Day7: Math Functions: Abs, Ceil, Concat, Cos, Exponent, Floor, Match, Max/Min, Power, Random, Replace, Round, Slice, Square, StrLength, SubString, SuperScript, Tan </p>
+<p>Day8: Forms</p>
