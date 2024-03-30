@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang ="javascript">
+        //created a function called validation which takes in name, age and grade 
+        //ensures the boxes have been passed correct values or displays alert messages
+        function validation(){
+            var name, age, grade;
+            name = document.formname.name.value;
+            age = document.formname.age.value;
+            grade = document.formname.grade.value;
+
+            if(name ==""){
+                alert("Please enter a NAME");
+                return false;
+            }
+
+            if(age ==""){
+                alert("Please enter an AGE");
+                return false;
+            }
+            if(!isNaN(age)){
+                alert("Please enter a NUMBER value for AGE");
+                return false;
+            }
+
+            if(grade ==""){
+                alert("Please enter a GRADE");
+                return false;
+            }
+            if(!isNaN(grade)){
+                alert("Please enter a NUMBER value for GRADE");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+   <table>
+    <form name = "formname" onsubmit="return validation()">
+        <tr>
+            <td>NAME: </td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>AGE: </td>
+            <td><input type="text" name="age"></td>
+        </tr>
+        <tr>
+            <td>GRADE: </td>
+            <td><input type="text" name="grade"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="submit"></td>
+        </tr>
+    </form>
+   </table>
+</body>
+</html>

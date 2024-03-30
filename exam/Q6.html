@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang ="javascript">
+        //displays max num within an 5 num array
+        var array = new Array(5);
+        
+        for( var i=0; i<=4; i++){
+            array[i] = parseInt(prompt("Enter No: "));
+        }
+        
+        document.write("<br>Max No: " + Math.max(...array));
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang ="javascript">
+        //created functions which take values from user and either add, subtract, multiply or divide
+        function addition(num1, num2){
+            var tot = num1 + num2;
+            document.write("Addition of: " + num1 + " + " + num2 +" = " + tot + "<br>");
+        }
+        function subtraction(num1, num2){
+            var tot = num1 - num2;
+            document.write("Subtraction of: " + num1 + " - " + num2 +" = " + tot + "<br>");
+        }
+        function multiply(num1, num2){
+            var tot = num1 * num2;
+            document.write("Multiplication of: " + num1 + " * " + num2 +" = " + tot + "<br>"  );
+        }
+        function divide(num1, num2){
+            var tot = num1 / num2;
+            document.write("Divition of: " + num1 + " / " + num2 +" = " + tot + "<br>");
+        }
+    </script>
+</head>
+<body>
+    <script lang ="javascript">
+        var num1, num2;
+        num1 = parseInt(prompt("Enter a num: "));
+        num2 = parseInt(prompt("Enter another num: "));
+        addition(num1,num2);
+        subtraction(num1,num2);
+        multiply(num1,num2);
+        divide(num1,num2);
+    </script>
+</body>
+</html>
